@@ -1,0 +1,68 @@
+﻿Build started 21/11/2014 04:51:44.
+     1>Project "C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Framework\Framework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Frustrum.cpp GameTimer.cpp HeightMap.cpp Keyboard.cpp Light.cpp Matrix4.cpp MD5Anim.cpp MD5FileData.cpp MD5Mesh.cpp MD5Node.cpp Mesh.cpp Mouse.cpp OBJMesh.cpp ParticleEmitter.cpp Plane.cpp SceneNode.cpp Shader.cpp OGLRenderer.cpp Quaternion.cpp TextMesh.cpp Window.cpp
+         Camera.cpp
+         Frustrum.cpp
+         GameTimer.cpp
+         HeightMap.cpp
+         Keyboard.cpp
+         Light.cpp
+         Matrix4.cpp
+         MD5Anim.cpp
+         MD5FileData.cpp
+     1>MD5FileData.cpp(193): warning C4018: '<' : signed/unsigned mismatch
+     1>MD5FileData.cpp(533): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>MD5FileData.cpp(534): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         MD5Mesh.cpp
+         MD5Node.cpp
+         Mesh.cpp
+     1>Mesh.cpp(114): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>Mesh.cpp(114): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>Mesh.cpp(168): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>Mesh.cpp(169): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>Mesh.cpp(170): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+         Mouse.cpp
+         OBJMesh.cpp
+         ParticleEmitter.cpp
+         Plane.cpp
+         SceneNode.cpp
+         Shader.cpp
+         OGLRenderer.cpp
+         Quaternion.cpp
+         Compiling...
+         TextMesh.cpp
+         Window.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /l"0x0409" /nologo /fo"Release\Framework.res" Framework.rc 
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Release\Framework.lib" /NOLOGO /LTCG Release\Framework.res
+         Release\Camera.obj
+         Release\Frustrum.obj
+         Release\GameTimer.obj
+         Release\HeightMap.obj
+         Release\Keyboard.obj
+         Release\Light.obj
+         Release\Matrix4.obj
+         Release\MD5Anim.obj
+         Release\MD5FileData.obj
+         Release\MD5Mesh.obj
+         Release\MD5Node.obj
+         Release\Mesh.obj
+         Release\Mouse.obj
+         Release\OBJMesh.obj
+         Release\ParticleEmitter.obj
+         Release\Plane.obj
+         Release\SceneNode.obj
+         Release\Shader.obj
+         Release\OGLRenderer.obj
+         Release\Quaternion.obj
+         Release\TextMesh.obj
+         Release\Window.obj
+     1>LINK : warning LNK4068: /MACHINE not specified; defaulting to X86
+         Framework.vcxproj -> C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Release\Framework.lib
+     1>Done Building Project "C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Framework\Framework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.60

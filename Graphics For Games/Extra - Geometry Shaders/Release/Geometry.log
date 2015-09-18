@@ -1,0 +1,16 @@
+﻿Build started 21/11/2014 04:38:09.
+     1>Project "C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Extra - Geometry Shaders\Geometry.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Renderer.cpp tutorial10.cpp
+         Renderer.cpp
+     1>Renderer.cpp(45): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         tutorial10.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Release\Extra - Geometry Shaders.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Release\Extra - Geometry Shaders.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Release\Extra - Geometry Shaders.lib" /MACHINE:X86 /SAFESEH Release\Renderer.obj
+         Release\tutorial10.obj
+     1>LINK : fatal error LNK1104: cannot open file 'framework.lib'
+     1>Done Building Project "C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Extra - Geometry Shaders\Geometry.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.56

@@ -1,0 +1,53 @@
+﻿Build started 20/11/2014 20:13:40.
+     1>Project "C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Extra - Geometry Shaders\Geometry.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Renderer.cpp tutorial10.cpp
+         Renderer.cpp
+     1>c:\users\cmdadmin\documents\visual studio 2012\projects\week 1\graphics for games\extra - geometry shaders\renderer.cpp(45): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         tutorial10.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Debug\Extra - Geometry Shaders.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Extra - Geometry Shaders.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Debug\Extra - Geometry Shaders.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Debug\Extra - Geometry Shaders.lib" /MACHINE:X86 Debug\Renderer.obj
+         Debug\tutorial10.obj
+     1>framework.lib(OGLRenderer.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in Renderer.obj
+     1>framework.lib(Matrix4.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in Renderer.obj
+     1>framework.lib(ParticleEmitter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in Renderer.obj
+     1>framework.lib(Shader.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in Renderer.obj
+     1>framework.lib(Camera.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in Renderer.obj
+     1>framework.lib(Window.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in Renderer.obj
+     1>framework.lib(Mesh.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in Renderer.obj
+     1>framework.lib(Mouse.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1700' doesn't match value '1600' in Renderer.obj
+     1>framework.lib(Camera.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ)
+     1>framework.lib(Window.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ)
+     1>framework.lib(Mesh.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ)
+     1>framework.lib(Mouse.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ)
+     1>framework.lib(OGLRenderer.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ) referenced in function "char * __cdecl std::_Allocate<char>(unsigned int,char *)" (??$_Allocate@D@std@@YAPADIPAD@Z)
+     1>framework.lib(Matrix4.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ)
+     1>framework.lib(ParticleEmitter.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ)
+     1>framework.lib(Shader.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ)
+     1>framework.lib(Camera.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Syserror_map(int)" (__imp_?_Syserror_map@std@@YAPBDH@Z)
+     1>framework.lib(Window.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Syserror_map(int)" (__imp_?_Syserror_map@std@@YAPBDH@Z)
+     1>framework.lib(Mesh.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Syserror_map(int)" (__imp_?_Syserror_map@std@@YAPBDH@Z)
+     1>framework.lib(Mouse.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Syserror_map(int)" (__imp_?_Syserror_map@std@@YAPBDH@Z)
+     1>framework.lib(OGLRenderer.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Syserror_map(int)" (__imp_?_Syserror_map@std@@YAPBDH@Z) referenced in function "public: virtual class std::error_condition __thiscall std::_System_error_category::default_error_condition(int)const " (?default_error_condition@_System_error_category@std@@UBE?AVerror_condition@2@H@Z)
+     1>framework.lib(Matrix4.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Syserror_map(int)" (__imp_?_Syserror_map@std@@YAPBDH@Z)
+     1>framework.lib(ParticleEmitter.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Syserror_map(int)" (__imp_?_Syserror_map@std@@YAPBDH@Z)
+     1>framework.lib(Shader.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Syserror_map(int)" (__imp_?_Syserror_map@std@@YAPBDH@Z)
+     1>framework.lib(Camera.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+     1>framework.lib(Window.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+     1>framework.lib(Mesh.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z) referenced in function "public: __thiscall Vector4::Vector4(void)" (??0Vector4@@QAE@XZ)
+     1>framework.lib(Mouse.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+     1>framework.lib(OGLRenderer.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+     1>framework.lib(Matrix4.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+     1>framework.lib(ParticleEmitter.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+     1>framework.lib(Shader.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) char const * __cdecl std::_Winerror_map(int)" (__imp_?_Winerror_map@std@@YAPBDH@Z)
+     1>framework.lib(Shader.obj) : error LNK2019: unresolved external symbol "void __cdecl std::_Facet_Register(class std::_Facet_base *)" (?_Facet_Register@std@@YAXPAV_Facet_base@1@@Z) referenced in function "class std::codecvt<char,char,int> const & __cdecl std::use_facet<class std::codecvt<char,char,int> >(class std::locale const &)" (??$use_facet@V?$codecvt@DDH@std@@@std@@YAABV?$codecvt@DDH@0@ABVlocale@0@@Z)
+     1>framework.lib(Shader.obj) : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1(void)" (__imp_?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@UAEXXZ) referenced in function "[thunk]:public: virtual void __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Add_vtordisp1`vtordisp{4294967292,88}' (void)" (?_Add_vtordisp1@?$basic_istream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@FI@AEXXZ)
+     1>framework.lib(Shader.obj) : error LNK2001: unresolved external symbol "public: virtual void __thiscall std::basic_ios<char,struct std::char_traits<char> >::_Add_vtordisp2(void)" (?_Add_vtordisp2@?$basic_ios@DU?$char_traits@D@std@@@std@@UAEXXZ)
+     1>C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Debug\Extra - Geometry Shaders.exe : fatal error LNK1120: 6 unresolved externals
+     1>Done Building Project "C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Extra - Geometry Shaders\Geometry.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.96

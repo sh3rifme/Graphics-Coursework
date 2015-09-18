@@ -1,0 +1,17 @@
+﻿Build started 21/11/2014 04:38:18.
+     1>Project "C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\6) Scene Graph\Tutorial6.vcxproj" on node 7 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CubeRobot.cpp Renderer.cpp Tutorial6.cpp
+         CubeRobot.cpp
+         Renderer.cpp
+         Tutorial6.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Release\Tutorial6 - Scene Graph.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Tutorial6 - Scene Graph.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Release\Tutorial6 - Scene Graph.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\Release\Tutorial6 - Scene Graph.lib" /MACHINE:X86 Release\CubeRobot.obj
+         Release\Renderer.obj
+         Release\Tutorial6.obj
+     1>LINK : fatal error LNK1104: cannot open file 'glew32.lib'
+     1>Done Building Project "C:\Users\cmdadmin\Documents\Visual Studio 2012\Projects\Week 1\Graphics For Games\6) Scene Graph\Tutorial6.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.12
